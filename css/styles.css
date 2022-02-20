@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+ }
+
+
+li{
+    list-style: none;
+}
+body{
+    background-color: black;
+}
+h1 {
+    color: #fff;
+    font-size: 30px;
+    background-color:black;
+    text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+/* background-image: url("../assets/pictures/logoRiseBlack.jpeg"); */
+/* background-repeat: no-repeat; */
+
+
+#nave {
+    width: auto;
+    height: 300px;
+    box-sizing: content-box;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 300px;
+    padding: 1%;
+    text-decoration: none;
+    
+}
+
+#nave li>a:hover{
+    color: rgb(236, 232, 232);
+    background-color: #ec0909;
+} 
+
+#nave>li{
+    float: left;
+    text-align:center   
+    
+  }
+
+  #nave>li>ul{
+    display: none;
+    list-style: none;
+  }
+  
+  #nave>li:hover>ul {
+    display:block;
+    list-style: none;
+  }
+
+
+.sppb-btnInicio {
+    padding: 6px 30px;
+    padding-top: 6px;
+    padding-right: 30px;
+    padding-bottom: 6px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.sppb-btnProducto {
+    padding: 6px 30px;
+    padding-top: 6px;
+    padding-right: 30px;
+    padding-bottom: 6px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.sppb-btnVideo {
+    padding: 6px 30px;
+    padding-top: 6px;
+    padding-right: 30px;
+    padding-bottom: 6px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.sppb-btnDiario {
+    padding: 6px 30px;
+    padding-top: 6px;
+    padding-right: 30px;
+    padding-bottom: 6px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.sppb-btnCursos {
+    /* padding: 6px 30px; */
+    padding-top: 6px;
+    padding-right: 30px;
+    padding-bottom: 6px;
+    padding-left: 30px;
+    font-size: 20px;
+    width: 81;
+}
+
+.sppb-btnContacto {
+    padding: 6px 30px;
+    padding-top: 6px;
+    padding-right: 800px;
+    padding-bottom: 6px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.sppb-btnLoggin {
+    padding: 26px 30px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 6px;
+    padding-left: 30px;
+    font-size: 20px;
+    position: sticky;
+}   
+
+footer section div h1 {
+
+    position: -webkit-sticky;
+    text-align: center;
+    color: brown;
+    font-size: 15px;
+}
+
+.alegria {    
+    color: #fff;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    transform: translate(110px, 110px);
+    transform: rotate(15deg);
+    
+}
+
+
+/* .tama {
+    width: 100px;
+    height: 20 px;
+    box-sizing: content-box;
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+.Registrarse{
+    color: aliceblue;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+li a {
+    color: blanchedalmond;
+    background-color: black;
+    width: auto;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    list-style: none;
+
+}
+
+.grid{
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 15px;
+    justify-items: stretch;
+    align-items:center;
+}
+.griddos{
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 15px;
+    justify-content: end;
+    align-content:flex-end;
+}
+
+.direct{
+    display: flex;
+    flex-direction: column-reverse;
+    color: #fff;
+    list-style-type: square;
+    font-size: 30PX;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
